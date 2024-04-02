@@ -29,13 +29,15 @@
                 </label>
                 <a class="linkonpc" href="index.html"><li>Home</li></a>
                 <a class="linkonpc" href="shop.html"><li>Shop</li></a>
-                <a class="linkonpc" href=""><li>Contact</li></a> 
+                <a class="linkonpc" href=""><li>Contact</li></a>    
               </div>
         <a href="checkout.html">
-          <li>
-            <img class="top-cart-img" src="img/shopping-cart.png">
-            <p class="cart-quantity">1</p>
-          </li>
+          <div class="top-cart-quantity">
+              <img class="top-cart-img" src="img/shopping-cart.png">
+                <div class="top-cart-quantity-css">
+                  <p class="cart-quantity">0</p>
+                </div>
+          </div> 
         </a>
       </div>
     </div>
@@ -43,21 +45,6 @@
 </header>
 <body>
   <div class="summary-container">
-    <div class="summary-content">
-      <img class="product-img" src="img/1.jpg">
-      <div class="product-total-details">
-        <p class="product-name">Coffee</p>
-        <p class="product-price">₱39</p>
-        <div class="product-quantity">
-          <p class="product-quantity">Quantity: 1</p>
-          <div class="quantity-edit">
-            <button class="button-update">Update</button>
-            <button class="button-delete">Delete</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
   </div>
   <div class="total-price-quantity-container">
     <div class="total-price-quantity-content">
@@ -69,6 +56,7 @@
     </div>
 
   </div>
-  <script src="javascript/header.js"></script> 
+  <script src="javascript/header.js"></script>
+  <script type="module" src="javascript/checkout.js"></script>
 </body>
 </html>
